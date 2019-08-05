@@ -100,7 +100,7 @@ sudo make install
 
 __WARNING:__ For most of your work, it might be important to avoid channel hopping (i.e., fix your sniffing and/or injecting channel). This is the safest option to do it. Open a terminal and open ```airodump-ng``` with the ```--channel``` option:
 
-```airodump_ng --channel channel_number name_of_interface_in_monitor_mode```
+```airodump-ng --channel channel_number name_of_interface_in_monitor_mode```
 
 Keep that terminal window open and ```airodump-ng``` running while your own scripts execute.
 
@@ -150,12 +150,14 @@ So, every time your scanner prints results, they will look like this:
 ## Questions
 
 __Q1__ : What type of frames are used to detect clients in a passive way?
+Probe requests are done by clients searching for a specific network or to know if there is any networks near.
 
 __Q2__ : why is it no longer possible to detect iPhones since version 8 of iOS?
 
 __Q3__ : what is the purpose of those frames?
 
 __Q4__ : why are these frames not secured?
+Everyone needs to understand these frames.
 
 __Q5__ : what other information can you obtain besides the MAC address?
 
