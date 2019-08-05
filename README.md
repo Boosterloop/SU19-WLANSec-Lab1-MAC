@@ -150,14 +150,16 @@ So, every time your scanner prints results, they will look like this:
 ## Questions
 
 __Q1__ : What type of frames are used to detect clients in a passive way?
-Probe requests are done by clients searching for a specific network or to know if there is any networks near.
+
+__R1__ : Probe requests are done by clients searching for a specific network or to know if there is any networks near.
 
 __Q2__ : why is it no longer possible to detect iPhones since version 8 of iOS?
 
 __Q3__ : what is the purpose of those frames?
 
 __Q4__ : why are these frames not secured?
-Everyone needs to understand these frames.
+
+__R4__ : Everyone needs to understand these frames.
 
 __Q5__ : what other information can you obtain besides the MAC address?
 
